@@ -4,9 +4,9 @@ import { LoadingDots } from '@/components/LoadingDots';
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black">
-      <main className="flex flex-col items-center justify-center gap-12 px-8 py-16 text-center">
-        <div className="animate-fade-in">
-          <Logo width={120} height={116} className="mb-8" />
+      <main className="flex flex-col items-center justify-center gap-8 px-8 py-16 text-center">
+        <div className="animate-fade-in mb-2">
+          <Logo width={120} height={116} />
         </div>
 
         <div className="flex flex-col items-center gap-6">
